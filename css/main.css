@@ -1,0 +1,44 @@
+.container {
+    min-height: calc(100vh - 9vh - 58px);
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+}
+
+.slider img {
+    width: 75vw;
+    height: 65vh;
+    margin: 80px 0px 10px 0px;
+}
+
+.box {
+    padding: 25px 25px;
+    margin: 10px 10px;
+    border: 1px solid lightblue;
+}
+
+.box h2 {
+    margin: 1px 2px;
+    padding: 7px 16px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.card {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+    margin: 2px 13px;
+    padding: 5px 5px;
+}
+
+.card p {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
