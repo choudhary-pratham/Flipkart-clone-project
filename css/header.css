@@ -7,88 +7,65 @@
 
 header {
     position: fixed;
-    display: flex;
-    justify-content: flex-start;
-    text-align: center;
     background-color: rgb(0, 0, 255);
-    height: 9vh;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
+nav{
+    display: flex;
+    width:100vw;
+    height:10vh;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
 .logo img {
     width: 100px;
     height: 29px;
-    padding: 20px 23px;
+    padding: 0 25px;
 }
-
 nav ul {
     display: flex;
     justify-content: flex-start;
-    text-align: center;
+    align-items: center;
 }
 
 nav ul li {
-    padding: 24px 23px;
+    padding: 0px 23px;
     list-style: none;
+
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-family: 'Josefin Sans', sans-serif;
 }
 
 nav ul li a:hover {
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .search {
-    padding: 18px 23px;
-    width: 123px;
+    display: flex;
+    align-items: center;
 }
 
 .search input {
     width: 400px;
     height: 29px;
     border-radius: 6px;
-    padding: 0px 23px;
-    font-family: 'Josefin Sans', sans-serif;
+    padding: 0px 12px;
+    margin:0 3px;
 }
 
-.search_icon {
-    width: 4px;
-}
-
-.search_icon img {
+.search button {
+    color:white;
     height: 30px;
-    padding: 20px 270px;
-
-}
-
-.btn {
-    display: inline-flex;
-    margin: 4px 240px;
-}
-
-#btnn1 {
-    width: 60px;
-    height: 25px;
+    width: 55px;
+    background-color:blue;
     border-radius: 6px;
-    cursor: pointer;
-    background-color: rgb(0, 0, 255);
-    color: white;
-    font-weight: 200;
-    font-family: 'Josefin Sans', sans-serif;
-    margin: 18px 72px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
 }
 
-#btnn2 {
-    width: 90px;
-    height: 30px;
-    border-radius: 6px;
-    cursor: pointer;
-    background-color: blue;
-    color: white;
-    font-weight: 200;
-    font-family: 'Josefin Sans', sans-serif;
-    margin: 16px -100px;
-}
